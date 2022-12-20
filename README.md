@@ -40,7 +40,7 @@ typedef struct playerDetailes {
 ```
 ## Game Manager
 
-```
+```c
 void gameManager(PLAYER* players, int numOfPlayers, UPPERCARD* upperCard)
 {
 	// Sequence: current turn -> player cards -> print game request -> current turn -> upper card -> player cards ...
