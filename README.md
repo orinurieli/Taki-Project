@@ -18,7 +18,7 @@ Each card will be represented by a frame of stars in the center of which will be
 
 ## Using Structs 
 
-```
+```c
 typedef struct cardDetailes {
 	char color;			// R | G | B | Y
 	int number;			// 1 - 9
